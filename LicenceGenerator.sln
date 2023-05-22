@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.902
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LicenceGenerator", "LicenceGenerator.csproj", "{03482850-D9A4-4BC8-BE25-9C5156812BB3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{850CFC84-B63C-4351-9D74-BD691D822195} = {850CFC84-B63C-4351-9D74-BD691D822195}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSACore", "..\CSACore\CSACore.csproj", "{850CFC84-B63C-4351-9D74-BD691D822195}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03482850-D9A4-4BC8-BE25-9C5156812BB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03482850-D9A4-4BC8-BE25-9C5156812BB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03482850-D9A4-4BC8-BE25-9C5156812BB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03482850-D9A4-4BC8-BE25-9C5156812BB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{850CFC84-B63C-4351-9D74-BD691D822195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{850CFC84-B63C-4351-9D74-BD691D822195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{850CFC84-B63C-4351-9D74-BD691D822195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{850CFC84-B63C-4351-9D74-BD691D822195}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8E2AD7FA-FF91-4B51-8C65-652EB054DE0D}
+	EndGlobalSection
+EndGlobal
